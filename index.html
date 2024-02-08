@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+       <div class="inner-container">
+         <div class="password-generator">
+            <img src="images/lock.png" alt="">
+            <h4 class="greenish-color">PASSWORD GENERATOR</h4>
+            <h1>Generate a secure  password 🦈</h1>
+            <div class="get-password">
+               <input type="text" value="">
+                <img src="images/copy.png" class="copy">
+            </div>
+            <div class="options">
+                <div class="about-pass-length">
+                    <h2>Customize password</h2>
+                    <p class="length-value">Password length:10</p>
+                    <input type="range" class="pass-length " min="10" max="30" value="10" >
+                </div>
+                <div class="password-types">
+                    <div>
+                        <input type="checkbox" class="uppercase-letters">
+                        <label >Uppercase Letters</label>                       
+                    </div>
+                    <div>
+                        <input type="checkbox" class="lowercase-letters">
+                        <label >Lowercase Letters</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="symbols">
+                        <label >Symbols</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" class="numbers">
+                        <label >Numbers</label>
+                    </div>
+
+                </div>
+            </div>
+            <button class="genrate-pass-btn">Generate Password</button>
+            <div class="error">
+                <span></span>
+            </div>
+         </div>
+       </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
